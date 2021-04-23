@@ -48,6 +48,23 @@ int main() {
         buf[12] = 'e';
         buf[13] = ' ';
         buf[14] = '1';
+        RPC::call(buf, outbuf);
+
+        buf[0] = '/';
+        buf[1] = 'm';
+        buf[2] = 'y';
+        buf[3] = 'l';
+        buf[4] = 'e';
+        buf[5] = 'd';
+        buf[6] = '2';
+        buf[7] = '/';
+        buf[8] = 'w';
+        buf[9] = 'r';
+        buf[10] = 'i';
+        buf[11] = 't';
+        buf[12] = 'e';
+        buf[13] = ' ';
+        buf[14] = '0';
         flag = 0;
       } else {
           buf[0] = '/';
@@ -65,6 +82,23 @@ int main() {
         buf[12] = 'e';
         buf[13] = ' ';
         buf[14] = '0';
+        RPC::call(buf, outbuf);
+
+        buf[0] = '/';
+        buf[1] = 'm';
+        buf[2] = 'y';
+        buf[3] = 'l';
+        buf[4] = 'e';
+        buf[5] = 'd';
+        buf[6] = '2';
+        buf[7] = '/';
+        buf[8] = 'w';
+        buf[9] = 'r';
+        buf[10] = 'i';
+        buf[11] = 't';
+        buf[12] = 'e';
+        buf[13] = ' ';
+        buf[14] = '1';
         flag = 1;
       }
       //printf("%s\r\n", buf);
